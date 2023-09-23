@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- CSS Utama -->
+        <link rel="stylesheet" href="css/app.css" />
+
+        <!-- Font Awesome 5.15.4 -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header class="navbar-container">
+            <title>Submission Dicoding</title>
+            <div class="logo">
+                <img src="img/logo.png" alt="Rizmo" width="100" />
+            </div>
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#cards">Photos</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <aside>
+                <div class="nav-sidebar">
+                    <ul>
+                        <li>
+                            <a href="#beranda" class="fab"> Beranda </a>
+                        </li>
+                        <li>
+                            <a href="#cards" class="fab">Photos</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="fab">Footer</a>
+                        </li>
+                        <li>
+                            <img src="img/compressed.jpg" alt="rizky's photo" class="foto-rizky" />
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="content" id="beranda">
+                <div class="content-description">
+                    <h1 class="title">Rizmo</h1>
+                    <p>Kualitas gambar yang kami sediakan melalui layanan download kami akan meningkatkan keindahan dan profesionalisme foto Anda.</p>
+                    <button>
+                        <a href="#cards" class="more-button">Lebih lanjut</a>
+                    </button>
+                </div>
+                <div class="content-image">
+                    <img src="img/logo.png" alt="Rizmo" />
+                </div>
+            </div>
+            <article>
+                <!-- Card Component -->
+                <div class="cards container" id="cards">
+                    <ul class="cards">
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=10" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 1</h2>
+                                    <p class="card_text">Foto hutan yang sangat epic</p>
+                                    <a href="https://picsum.photos/500/300/?image=10"><button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=5" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 2</h2>
+                                    <p class="card_text">Foto orang lagi ngetik</p>
+                                    <a href="https://picsum.photos/500/300/?image=5" download=""><button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=11" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 3</h2>
+                                    <p class="card_text">Foto danau</p>
+                                    <a href="https://picsum.photos/500/300/?image=11"><button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=14" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 4</h2>
+                                    <p class="card_text">Foto pantai</p>
+                                    <a href="https://picsum.photos/500/300/?image=14" download=""> <button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=17" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 5</h2>
+                                    <p class="card_text">Foto jalan</p>
+                                    <a href="https://picsum.photos/500/300/?image=17" download><button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2" /></div>
+                                <div class="card_content">
+                                    <h2 class="card_title">Photo 6</h2>
+                                    <p class="card_text">Foto laptop macbook</p>
+                                    <a href="https://picsum.photos/500/300/?image=2" download><button class="btn card_btn">Read More</button></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Rizmo</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">How to watch</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Features</h4>
+                        <ul>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Series</a></li>
+                            <li><a href="#">Anime</a></li>
+                            <li><a href="#">K-Drama</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100009770654611"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/rizkyhaksonoo/"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
